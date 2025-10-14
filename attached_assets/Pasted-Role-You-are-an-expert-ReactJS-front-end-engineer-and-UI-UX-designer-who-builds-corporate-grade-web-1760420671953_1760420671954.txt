@@ -1,0 +1,171 @@
+Role
+
+You are an expert ReactJS front-end engineer and UI/UX designer who builds corporate-grade web apps.
+You will create a Suviksan Chatbot Web App — a modern, responsive, and interactive chatbot website inspired by the Suviksan Technologies landing page (colors, layout, and tone) shown in the reference image.
+
+Context
+
+Suviksan Technologies is an IT company specializing in Data Analytics, Cyber Security, and Data Security.
+Their design uses a professional blue-white-orange color palette with modern corporate typography.
+Your generated app should look and feel like part of the same ecosystem — clean, modern, and business-oriented.
+
+Instructions
+
+1. Tech Stack
+
+Use ReactJS with Vite or CRA.
+
+Use Tailwind CSS for styling.
+
+Use Framer Motion for animations.
+
+Use Lucide-React icons for buttons (chat, delete, sun/moon, status).
+
+The app must be fully responsive and mobile-friendly.
+
+Keep all styling consistent with Suviksan’s visual identity (blue #004C97, orange #F58220, white, and light gray).
+
+2. Page Structure
+
+🧭 Navbar
+
+Left: Suviksan logo (use a placeholder image or text “Suviksan Technologies”).
+
+Right: Navigation links — Home, About Us, Services, Career, Contact.
+
+Add a Light/Dark mode toggle (sun 🌞 / moon 🌙 icon) that switches the theme dynamically using Tailwind’s dark: classes.
+
+💼 Hero Section
+
+A large banner area with a tagline like
+
+“Empowering Businesses with Secure and Intelligent IT Solutions.”
+
+Add a background inspired by the reference image (abstract blue or tech texture).
+
+Include a “Learn More” button with hover animation.
+
+🧩 Service Cards
+
+Section Title: “Our Core Services”
+
+3 responsive cards (grid layout) for:
+
+Data Analytics
+
+Cyber Security
+
+Data Security
+
+Each card:
+
+Has an icon (use BarChart3, ShieldCheck, Database from lucide-react)
+
+On hover → subtle lift and shadow animation (Framer Motion).
+
+Short 2-line description.
+
+💬 Floating Chatbot
+
+A circular chat icon button fixed at bottom-right corner (position: fixed; bottom: 20px; right: 20px).
+
+When clicked → opens a Chatbot Panel with slide-in animation (Framer Motion).
+
+Panel Features:
+
+Header: “💬 Suviksan Assistant” + close (×) icon.
+
+Status Indicator: “🟢 Active” or “🔴 Offline”.
+
+Chat area: Scrollable message list.
+
+Input box + send button.
+
+4 Dummy Quick Questions:
+
+What services does Suviksan offer?
+
+How can I contact Suviksan?
+
+Where is Suviksan located?
+
+What are Suviksan’s core domains?
+
+Delete Chat button clears all messages.
+
+Chatbot replies with static responses (no backend needed).
+
+Style the chat bubbles using Suviksan colors (blue & white).
+
+⚙️ Footer
+
+Background in dark blue.
+
+Include:
+
+Company info text:
+“© 2025 Suviksan Technologies. All Rights Reserved.”
+
+Links: Home, About Us, Career, Contact Us.
+
+Social icons: LinkedIn, X (Twitter), Facebook.
+
+3. Responsiveness
+
+All sections (navbar, hero, cards, chatbot, footer) must adjust perfectly for:
+
+Desktop
+
+Tablet
+
+Mobile
+
+Chatbot should reposition gracefully (full-width modal style on small screens).
+
+4. Design Requirements
+
+Follow Suviksan’s colors:
+
+Primary Blue: #004C97
+
+Accent Orange: #F58220
+
+Background Gray: #F5F7FA
+
+Use rounded corners (rounded-2xl), smooth shadows (shadow-lg), and gentle transitions.
+
+Fonts: Use Inter or Poppins.
+
+5. Expected Deliverables
+
+Generate a fully working React front-end app containing:
+
+App.jsx – main layout
+
+Navbar.jsx, Hero.jsx, Services.jsx, Chatbot.jsx, Footer.jsx components
+
+tailwind.config.js setup
+
+index.css with base Tailwind styles
+
+Proper routing and folder organization (/components, /assets, /styles)
+
+Functional light/dark mode and chatbot panel toggle
+
+Features Summary
+
+✅ Navbar with theme toggle
+✅ Hero section with CTA
+✅ 3 service cards (animated)
+✅ Floating chatbot icon
+✅ Expandable chat panel
+✅ Status active indicator
+✅ Delete chat option
+✅ 4 dummy FAQ buttons
+✅ Responsive and animated UI
+✅ Corporate color palette and font styling
+✅ Footer with company info and social icons
+
+Goal
+
+Create a production-ready Suviksan Chatbot Front-End that matches the professional style of Suviksan’s main website while being interactive, responsive, and visually modern — ready to integrate later with a real chatbot backend.
