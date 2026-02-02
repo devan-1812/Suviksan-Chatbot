@@ -1,8 +1,6 @@
 # Suviksan-Chatbot
 A modern, responsive corporate landing page with an integrated chatbot UI inspired by Suviksan Technologies.  
 This project demonstrates professional front-end architecture, interactive UI behavior, and brand-consistent design for enterprise chatbot interfaces.
-![Uploading image.png…]()
-
 
 ## ✨ Features
 
@@ -10,12 +8,9 @@ This project demonstrates professional front-end architecture, interactive UI be
 - Floating chatbot assistant panel
 - Auto-send quick demo questions
 - Animated chat bubbles
-- Light / Dark mode toggle
 - Smooth Framer Motion animations
 - Mobile-first responsive layout
-- Modern Tailwind UI styling
 - Clean component-based React architecture
-- Delete chat functionality
 - Static AI-style chatbot responses
 
 ## 🧠 Chatbot Capabilities
